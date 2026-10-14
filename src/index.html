@@ -8,11 +8,12 @@
       <p class="kicker">Seznamovací večery od roku 2009</p>
       <h1>Seznamte se u stolku, ne přes obrazovku.</h1>
       <p class="lead">Rychlé rande naživo už od roku 2009: během jednoho večera si popovídáte až se čtrnácti nezadanými, nápoj je v ceně a výsledky vám přijdou do hodiny po skončení akce.</p>
+      <p class="nejblizsi"><strong>Nejbližší večer:</strong> úterý 20. 10. v 19:00, Mad Rabbit, Praha 1 · 690 Kč</p>
       <p class="akce"><a class="tlacitko" href="#terminy">Vybrat termín</a><a class="odkaz-sekundarni" href="#jak">Jak to funguje</a></p>
     </div>
     <figure class="hero-foto">
-      {{ img('vecer-10.jpg', 'Dvojice si povídá u stolku při speed datingu', sizes='(min-width: 60rem) 36rem, 100vw') }}
-      <figcaption>Takhle vypadá večer u stolku. Foto z akcí Rande Motýl.</figcaption>
+      {{ img('zizkovska-vez.png', 'Speed dating v Oblaca baru v Žižkovské věži', sizes='(min-width: 60rem) 36rem, 100vw') }}
+      <figcaption>Seznamovací večer v Oblaca baru v Žižkovské věži</figcaption>
     </figure>
   </div>
 </section>
@@ -49,24 +50,27 @@
       </div>
       <div class="termin-cena"><strong>690 Kč</strong><span>ženy se slevou 390 Kč</span></div>
     </article>
-    <p class="poznamka">Místa v Praze i Brně a aktuální obsazenost najdete v kalendáři akcí Rande Motýl.</p>
+    <p class="akce-termin"><a class="tlacitko" href="https://www.randemotyl.cz/cs/rychle-rande/speed-dating-terminy-praha">Rezervovat místo</a><a class="odkaz-svetly" href="https://www.randemotyl.cz/cs/rychle-rande/speed-dating-terminy-praha">Všechny termíny Praha</a><a class="odkaz-svetly" href="https://www.randemotyl.cz/cs/rychle-rande/speed-dating-terminy-brno">Termíny Brno</a></p>
     <h3 class="podnadpis">Kde se potkáváme v Praze</h3>
     <p class="mista-text">NYX Hotel Prague, Radiocafé, Pub Na Plech, Café Felix, Mad Rabbit, Francouzská 33, Oblaca bar v Žižkovské věži a Dear Watson. Akce pořádáme i v Brně.</p>
   </div>
 </section>
 
 <section class="sekce" id="nabidka">
-  <div class="wrap">
-    <h2>Speed dating i jako dárek</h2>
-    <ul class="karty" role="list">
-      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
-    </ul>
+  <div class="wrap darek">
+    {{ img('vecer-14.jpg', 'Stoly připravené na seznamovací večer', sizes='(min-width: 48rem) 34rem, 100vw') }}
+    <div>
+      <h2>Speed dating jako dárek</h2>
+      <p>Originální dárek pro nezadané: darujte přátelům možnost skutečného seznámení a šanci na lásku.</p>
+      <p class="akce"><a class="tlacitko" href="https://www.randemotyl.cz/cs/rychle-rande/rychla-seznamka-darkovy-poukaz">Koupit dárkový poukaz</a></p>
+    </div>
   </div>
 </section>
 
 <section class="sekce sekce-svetla" id="ohlasy">
   <div class="wrap ohlasy">
     <h2>Někdy to končí i svatbou</h2>
+    <p class="perex">Rande Motýl pořádá speed dating od roku 2009 a podle svých údajů má za sebou přes 2 500 večerů. Aspoň jednu vzájemnou shodu najde 78 % účastníků.</p>
     <blockquote>
       <p>„V roce 2014 jsem absolvoval seznamovací večírek ve Vaší režii, byl jsem u Vás i několikrát předtím a nyní v květnu se nám narodil syn Adam. S partnerkou jsem se seznámil právě na posledním večírku.“</p>
       <footer>Jiří, Michaela a Adam</footer>

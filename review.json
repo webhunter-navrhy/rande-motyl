@@ -1,15 +1,15 @@
 {
-  "znamka": 4,
+  "znamka": 6,
   "slabiny": [
-    "Červený pruh se statistikami pod hero (PC buňka 1, mobil buňky 1–2): čísla „2500+ odehraných večerů“ a „78 % účastníků má aspoň jednu shodu“ nemají v brief.json zdroj. Brief uvádí jen „přes 2000 večerů“ a žádné procento. Pruh celý smazat, protože je to i zakázaný vzor statistického pásu. Doložené „od roku 2009“ a „výsledky do 1 hodiny“ nechat jen v textu hera. Stejně tak ověřit na randemotyl.cz nebo odstranit e-mail kontakt@randemotyl.cz (brief ho uvádí jako chybějící), příjmení „Jana Olivová“, podpis ohlasu „Jiří, Michaela a Adam“ (v originále podpis není), Brno v title a textu, termín 20. 10. s cenou 690/390 Kč a seznam podniků.",
-    "Koncept a fotky (celá stránka): skladba je generická SaaS kostra. Hero s kartou, pás čísel, 4 číslované kroky, tmavý blok, 3 bílé karty, 2 citace a formulář. Jedinou fotkou je OG banner se zapečeným textem „SPEED DATING PRAHA“, takže web nemá atmosféru večera ani lidí. Návrh postavit na jednom nápadu z oboru, třeba „večer u stolku“ s motýlem z loga jako motivem. Do hera dát skutečnou fotku podniku bez textu (Oblaca/Žižkovská věž, Mad Rabbit z webu klienta nebo z podniků). Kroky 1–4 udělat jako průběh jednoho večera s časy místo číselných koleček.",
-    "Sekce Nejbližší termín a Kde se potkáváme (PC buňky 2–3, mobil buňky 3–4): tmavý blok ukazuje jediný termín a pod ním polovinu plochy vyplňují jen štítky podniků. Hlavní akce webu (vybrat a rezervovat večer) tím nemá kam vést. Udělat ze sekce světlý seznam 3–5 nejbližších termínů z kalendáře klienta. Každý řádek bude mít datum, podnik, věkové rozmezí, cenu, volná místa a tlačítko „Rezervovat“. Na mobilu řádky skládat pod sebe a menu v hlavičce zkrátit na logo, „Termíny“ a hamburger, protože dnes zabírá dva řádky."
+    "Hero na PC (buňka 1): hlavní fotka je malá, tmavá, s rozmazanými obličeji a pod tlačítky zůstává asi 150 px prázdného místa, než začne „Jak to funguje“. Oprava: postavit hero na fotce. Ostrou fotku ze Žižkovské věže (podklady/foto/foto-01.png) dát zhruba do 60 % šířky, nebo přes celou šířku s textem vlevo. Mezeru pod hero zmenšit na polovinu a do hero přidat řádek s nejbližším termínem (20. 10., Mad Rabbit, 690 Kč), aby byl nápad „seznamte se u stolku“ vidět hned. Fotky s rozmazanými obličeji nechat jen v menší galerii v sekci Jak to funguje.",
+    "Konverze v Termínech a v Dárku (PC buňky 3–4, mobil 4–6): karta s termínem nemá žádné tlačítko a míst je jen jedna věta bez odkazu. „Speed dating i jako dárek“ tvoří tři bílé textové obdélníky bez fotky a bez akce. Na konci Ohlasů na PC je navíc prázdný růžový pruh (buňka 5 nahoře). Oprava: do karty termínu dát tlačítko „Rezervovat místo“ a odkaz „Všechny termíny Praha / Brno“. Podniky vypsat jako dva sloupce Praha / Brno místo odstavce. Dárek udělat jako jeden blok s fotkou a tlačítkem „Koupit dárkový poukaz“. Spodní padding Ohlasů zkrátit.",
+    "Pravdivost a důvěra (Ohlasy a karta Žižkovská věž): podpis „Jiří, Michaela a Adam“ ani „až 12 osobních rande“ v briefu nejsou. Brief uvádí jen syna Adama a 14 nezadaných. Oprava: ověřit obojí na randemotyl.cz, jinak podepsat „účastník večírků, 2014“ a číslo sjednotit na doložených 14. Zároveň chybí doložená fakta 2500+ večerů a 78 % účastníků s alespoň 1 shodou. Ta by měla být v perexu Ohlasů nebo pod nadpisem „Jak to funguje“ jako běžný text, ne jako tmavý pruh se statistikami."
   ],
   "silne": [
-    "Je tu skutečné logo s motýlem vlevo v hlavičce a červená paleta odpovídá brandu (#da1b21 / #f03a4d).",
-    "Hero jasně řekne, co firma dělá. Nadpis „Poznáte víc lidí za jeden večer než za měsíc na aplikacích“ má jedno výrazné CTA vlevo.",
-    "Typografie je čistá a s jednou rodinou (Schibsted Grotesk s háčky v pořádku), na 360–1440 px nic nepřetéká a stránka má jen 0,2 MB.",
-    "Ohlasy jsou skutečné, z webu klienta, včetně příběhu o svatbě a narozeném synovi."
+    "Je tam skutečné logo Rande Motýl s motýlem a ostré, červenorůžová paleta odpovídá brandu.",
+    "Texty vycházejí z reálného obsahu: od roku 2009, výsledky do hodiny, konkrétní termín a ceny, skutečné podniky, kontakt na Janu Olivovou.",
+    "Jedna rodina písma (Schibsted Grotesk) má v pořádku háčky, hierarchie je čistá. Na mobilu nic nepřetéká a stránka je lehká (0,24 MB).",
+    "Claim „Seznamte se u stolku, ne přes obrazovku“ je konkrétní a vychází z oboru."
   ],
-  "verdikt": "predelat – vymyšlená čísla (2500+, 78 %) a nedoložené kontakty dávají strop 4. Navíc je to generická SaaS kostra s jediným bannerem místo fotek. Po odstranění nedoložených údajů postavit koncept na atmosféře seznamovacího večera a na skutečném kalendáři termínů."
+  "verdikt": "opravit: Brand i obsah sedí, ale vizuálně je to korektní šablona z karet bez atmosféry večera. Hero stojí na slabé fotce a hlavní akce (rezervace termínu, dárek) nemá tlačítko."
 }
