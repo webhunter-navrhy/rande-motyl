@@ -9,7 +9,9 @@
  "ico": "",
  "ares": null,
  "kontakty": {
-  "emaily": [],
+  "emaily": [
+   "kontakt@randemotyl.cz"
+  ],
   "telefony": [
    "+420 736 217 056"
   ],
@@ -138,12 +140,45 @@
    "typ": "odstavec",
    "text": "© 2009 - 2026 Rande Motýl . Všechna práva vyhrazena. Obchodní \n\t\t\tpodmínky Ochranou osobních údajů",
    "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Speed dating již od roku 2009",
+   "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "2500+ úspěšně konaných speed dating večerů",
+   "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "78% účastníků má minimálně 1 shodu",
+   "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Kontakt: Jana Olivová, Tel.: +420 736 217 056, kontakt@randemotyl.cz (PO - PÁ 10:00 - 18:00)",
+   "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Speed Dating CLASSIC 20.10.2026 19:00, Mad Rabbit, Na Příkopě 12, Praha 1, Muži 36-45, Ženy 33-43, cena 690 Kč, sleva pro ženy 390 Kč",
+   "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Termíny akcí Praha a Brno; Praha: NYX Hotel Prague, Radiocafé, Pub Na Plech, Café Felix, Mad Rabbit, Francouzská 33, Oblaca bar – Žižkovská věž, Dear Watson",
+   "zdroj": "https://www.randemotyl.cz/"
+  },
+  {
+   "typ": "odstavec",
+   "text": "Fotogalerie z večerů: https://www.randemotyl.cz/cs/rychle-rande/speed-dating-fotogalerie",
+   "zdroj": "https://www.randemotyl.cz/"
   }
  ],
  "chybi": [
-  "e-mail",
   "IČO",
-  "fotky firmy/provozu/produktů (nalezeno 1, potřeba aspoň 6)",
   "adresa / provozovna",
   "potvrzení služeb a ceníku (nic nevymýšlet)"
  ],
