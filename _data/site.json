@@ -1,0 +1,53 @@
+{
+  "slug": "rande-motyl",
+  "nazev": "Rande Motýl",
+  "url": "https://webhunter-navrhy.github.io/rande-motyl/",
+  "base": "/rande-motyl/",
+  "lang": "cs",
+  "popis": "Speed dating v Praze a Brně od roku 2009: až 14 nových lidí za jeden večer, výsledky do hodiny a nápoj v ceně.",
+  "navrh": true,
+  "domena": "",
+  "og_image": "zizkovska-vez.png",
+  "logo": "logo.png",
+  "theme_color": "#da1b21",
+  "typ": "LocalBusiness",
+  "ico": "",
+  "kontakt": {
+    "email": "kontakt@randemotyl.cz",
+    "telefon": "+420 736 217 056",
+    "adresa": {
+      "ulice": "",
+      "psc": "",
+      "mesto": "Praha",
+      "zeme": "CZ"
+    }
+  },
+  "oteviraci_doba": [],
+  "sameas": [
+    "https://www.facebook.com/RandeMotylSpeedDating/"
+  ],
+  "cenove_rozpeti": "",
+  "formular": {
+    "endpoint": "",
+    "demo": true,
+    "predmet": "Dotaz z webu Rande Motýl"
+  },
+  "nav": [
+    {
+      "text": "Jak to funguje",
+      "href": "#jak"
+    },
+    {
+      "text": "Termíny",
+      "href": "#terminy"
+    },
+    {
+      "text": "Ohlasy",
+      "href": "#ohlasy"
+    },
+    {
+      "text": "Kontakt",
+      "href": "#kontakt"
+    }
+  ]
+}

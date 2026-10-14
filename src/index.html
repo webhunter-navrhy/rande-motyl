@@ -1,0 +1,96 @@
+{% extends "_base.html" %}
+{% set titulek = 'Speed dating v Praze a Brně | Rande Motýl' %}
+{% set cesta = '' %}
+{% block obsah %}
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="hero-text">
+      <p class="kicker">Seznamovací večery od roku 2009</p>
+      <h1>Poznáte víc lidí za jeden večer než za měsíc na aplikacích.</h1>
+      <p class="lead">Rychlé rande naživo: během jedné akce si popovídáte až se čtrnácti nezadanými. Nápoj je v ceně, výsledky přijdou do hodiny.</p>
+      <p class="akce"><a class="tlacitko" href="#terminy">Vybrat termín</a><a class="odkaz-sekundarni" href="#jak">Jak to funguje</a></p>
+    </div>
+    <figure class="hero-foto">
+      {{ img('zizkovska-vez.png', 'Speed dating v Žižkovské věži, večerní Praha', sizes='(min-width: 60rem) 36rem, 100vw') }}
+      <figcaption>Seznamovací večer v Oblaca baru v Žižkovské věži</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section class="cisla" aria-label="Rande Motýl v číslech">
+  <div class="wrap cisla-grid">
+    <p><strong>2009</strong><span>první večer, od té doby se nezastavili</span></p>
+    <p><strong>2500+</strong><span>odehraných speed dating večerů</span></p>
+    <p><strong>78 %</strong><span>účastníků má aspoň jednu shodu</span></p>
+    <p><strong>do 1 h</strong><span>po skončení akce přijdou výsledky</span></p>
+  </div>
+</section>
+
+<section class="sekce" id="jak">
+  <div class="wrap">
+    <h2>Jak to funguje</h2>
+    <ol class="kroky" role="list">
+      <li><span class="krok-cislo" aria-hidden="true">1</span><h3>Vyberete si večer</h3><p>Podle města, místa a věkového rozmezí. U každého termínu vidíte, kolik míst zbývá.</p></li>
+      <li><span class="krok-cislo" aria-hidden="true">2</span><h3>Přijdete a povídáte</h3><p>Střídáte se u stolů a s každým si krátce popovídáte tváří v tvář. Moderátorka vše vysvětlí.</p></li>
+      <li><span class="krok-cislo" aria-hidden="true">3</span><h3>Označíte, s kým jste si padli do oka</h3><p>Výsledky vyhodnotí automatizovaný systém a pošle vám je do hodiny po skončení akce.</p></li>
+      <li><span class="krok-cislo" aria-hidden="true">4</span><h3>Navážete kontakt</h3><p>Dozvíte se, kdo si vybral také vás. Výběr můžete po rozeslání výsledků ještě změnit.</p></li>
+    </ol>
+  </div>
+</section>
+
+<section class="sekce sekce-tmava" id="terminy">
+  <div class="wrap">
+    <h2>Nejbližší termín</h2>
+    <article class="termin">
+      <div class="termin-datum"><strong>20. 10.</strong><span>úterý, 19:00</span></div>
+      <div class="termin-info">
+        <h3>Speed Dating CLASSIC</h3>
+        <p>Mad Rabbit, Na Příkopě 12, Praha 1</p>
+        <p>Muži 36–45 let · ženy 33–43 let · česky / slovensky</p>
+      </div>
+      <div class="termin-cena"><strong>690 Kč</strong><span>ženy se slevou 390 Kč</span></div>
+    </article>
+    <p class="poznamka">Místa v Praze i Brně a aktuální obsazenost najdete v kalendáři akcí Rande Motýl.</p>
+    <h3 class="podnadpis">Kde se potkáváme v Praze</h3>
+    <ul class="mista" role="list">
+      <li>NYX Hotel Prague</li><li>Radiocafé</li><li>Pub Na Plech</li><li>Café Felix</li>
+      <li>Mad Rabbit</li><li>Francouzská 33</li><li>Oblaca bar – Žižkovská věž</li><li>Dear Watson</li>
+    </ul>
+  </div>
+</section>
+
+<section class="sekce" id="nabidka">
+  <div class="wrap">
+    <h2>Co dalšího nabízíme</h2>
+    <ul class="karty" role="list">
+      {% for s in data.sluzby %}<li><h3>{{ s.nazev }}</h3><p>{{ s.popis }}</p></li>{% endfor %}
+    </ul>
+  </div>
+</section>
+
+<section class="sekce sekce-svetla" id="ohlasy">
+  <div class="wrap ohlasy">
+    <h2>Někdy to končí i svatbou</h2>
+    <blockquote>
+      <p>„V roce 2014 jsem absolvoval seznamovací večírek ve Vaší režii, byl jsem u Vás i několikrát předtím a nyní v květnu se nám narodil syn Adam. S partnerkou jsem se seznámil právě na posledním večírku.“</p>
+      <footer>Jiří, Michaela a Adam</footer>
+    </blockquote>
+    <blockquote>
+      <p>„Organizace byla naprosto skvělá, prostředí útulné a pohodlné, což okamžitě vytvořilo příjemnou atmosféru. Moderátorka byla velmi příjemná a skvěle vše vysvětlila.“</p>
+      <footer>Účastnice večera, 31. 5. 2025</footer>
+    </blockquote>
+  </div>
+</section>
+
+<section class="sekce" id="kontakt">
+  <div class="wrap kontakt-grid">
+    <div>
+      <h2>Napište nám</h2>
+      <p>S organizací večerů vám ráda poradí Jana Olivová.</p>
+      <p class="kontakt-radek"><a href="mailto:{{ site.kontakt.email }}">{{ site.kontakt.email }}</a></p>
+      <p class="kontakt-radek"><a href="tel:{{ site.kontakt.telefon|replace(' ', '') }}">{{ site.kontakt.telefon }}</a><br><small>po–pá 10:00–18:00</small></p>
+    </div>
+    <div>{% include "_formular.html" %}</div>
+  </div>
+</section>
+{% endblock %}
